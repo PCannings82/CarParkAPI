@@ -19,6 +19,16 @@ namespace CarParkAPI.Services
 
         public async Task<ParkedCar> AddAsync(Park park)
         {
+
+            var existingParkedCar = await _context.ParkingSpace
+                .Where(p => p.VehicleRegistration == park.VehicleRegistration && p.Status == SpaceStatus.Occupied)
+                .FirstOrDefaultAsync();
+
+            if (existingParkedCar != null)
+            {
+                throw new Exception("This vehicle is already parked.");
+            }
+
             var availableSpace = await _context.ParkingSpace
                 .Where(p => p.Status == SpaceStatus.Available)
                 .OrderBy(p => p.Id)
