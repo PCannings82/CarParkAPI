@@ -73,7 +73,7 @@ namespace CarParkAPI.Controllers
 
         [HttpGet]
         [Route("costs")]
-        public async Task<ActionResult<Cost>> GeCost()
+        public async Task<ActionResult<Cost>> GetCost()
         {
             var cost = await _costService.getTotalCost();
 
