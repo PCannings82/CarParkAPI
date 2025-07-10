@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarParkAPI", "CarParkAPI\CarParkAPI.csproj", "{CCA0077F-D11F-4CF1-B416-ABF9327D556B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCA0077F-D11F-4CF1-B416-ABF9327D556B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCA0077F-D11F-4CF1-B416-ABF9327D556B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCA0077F-D11F-4CF1-B416-ABF9327D556B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCA0077F-D11F-4CF1-B416-ABF9327D556B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FEBD7E27-210B-4139-B9AD-82A821563A48}
+	EndGlobalSection
+EndGlobal
